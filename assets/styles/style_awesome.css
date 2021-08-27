@@ -1,0 +1,77 @@
+.awesome_header {
+  text-align: center;
+}
+.awesome_header h2 {
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 36px;
+  color: #212121;
+  line-height: 42,26px;
+  margin:  100px 0 25px 0;
+}
+.line_awesome {
+    border: 1px solid #D98943;
+    width: 64px;
+    margin: auto;
+}
+.awesome_header p {
+  font-family: Open_Sans;
+  color: #86878B;
+  font-size: 14px;
+  line-height: 19,07px;
+  margin: 30px 0 67px 0;
+}
+.awesome_subheader {
+  font-family: Open_Sans;
+  display: flex;
+  margin-bottom: 109px;
+  }
+.awesome_subheader_block {
+  text-align: center;
+  padding: 0 15px 0 15px;
+}
+.awesome_subheader_block h3 {
+  font-size: 20px;
+  margin: 0 0 16px 0;
+}
+.awesome_subheader_block p {
+  font-size: 14px;
+}
+.awesome_img_lamp {
+  background: url(../images/lamp.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #D98943;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto 30px auto;
+}
+.awesome_img_keyboard {
+  background: url(../images/keyboard.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #D98943;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto 30px auto;
+}
+.awesome_img_lightning {
+  background: url(../images/Lightning.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  border: 1px solid #D98943;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto 30px auto;
+}
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+@font-face {
+  font-family: Open_Sans;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
