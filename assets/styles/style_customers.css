@@ -51,6 +51,7 @@ transform: rotate(45deg);
   justify-content: center;
   margin: auto;
   padding-top: 22px;
+  padding-bottom: 119px;
 }
 .manager_info {
   margin-left: 45px;
@@ -67,9 +68,6 @@ transform: rotate(45deg);
   font-family: Open_Sans_bold;
   font-size: 20px;
   color: #333333;
-}
-.img_manager {
-  padding-bottom: 119px;
 }
 .customers_header {
   text-align: center;
