@@ -1,0 +1,123 @@
+.customers {
+  background-color: #FFFFFF;
+}
+.customers_container {
+  max-width: 1170px;
+  margin: auto;
+}
+.customers_header {
+  text-align: center;
+}
+.customers_header h2{
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 36px;
+  color: #212121;
+  line-height: 42,26px;
+  padding:  100px 0 25px 0;
+}
+.customers_header p {
+  font-family: Open_Sans;
+  color: #86878B;
+  font-size: 14px;
+  line-height: 19,07px;
+  margin: 30px 0 67px 0;
+}
+.customers_subheader {
+  display: flex;
+  justify-content: space-around;
+}
+.text {
+  width: 298px;
+  height: 110px;
+  background-color: #E2E2E2;
+  border-radius: 7px;
+  text-align: center;
+}
+.text p {
+  font-family: Open_Sans;
+  font-size: 14px;
+  text-align: center;
+  color: #86878B;
+  padding: 9px 22px 6px 23px;
+  }
+.square {
+width: 17px; 
+height: 17px;
+background-color: #E2E2E2;
+margin-left: 39px;
+position: relative;
+top: -8.5px;
+transform: rotate(45deg);
+}
+.manager {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding-top: 22px;
+}
+.manager_info {
+  margin-left: 45px;
+  margin-top: 8px;
+  text-align: right;
+}
+.manager_text {
+  margin-top: 12px;
+  font-size: 14px;
+  font-family: Open_Sans;
+  color: #86878B;
+}
+.jeremy_text {
+  font-family: Open_Sans_bold;
+  font-size: 20px;
+  color: #333333;
+}
+.img_manager {
+  padding-bottom: 119px;
+}
+.customers_header {
+  text-align: center;
+}
+.axure_container {
+  height: 326px;
+  margin: auto;
+  background: url(../images/city.png);
+}
+.axure_header {
+  text-align: center;
+}
+.axure_header h2{
+  text-transform: uppercase;
+  font-family: Raleway;
+  font-size: 36px;
+  color: #FFFFFF;
+  line-height: 42px;
+  padding:  58px 0 34px 0;
+}
+.axure_header p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  line-height: 19px;
+  margin: 34px 0 57px 0;
+  font-family: Raleway_Light;
+}
+.line_white {
+border: 1px solid #FFFFFF;
+width: 64px;
+margin: auto;
+}
+.download {
+  width: 135px;
+  height: 42px;
+  
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  margin: auto;
+}
+.download p {
+  padding: 11px 26px 11px 26px;
+  font-family: Open_Sans_Semibold;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}

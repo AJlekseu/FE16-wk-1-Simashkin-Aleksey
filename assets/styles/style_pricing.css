@@ -101,3 +101,7 @@ background-color: #FFFFFF;
   font-family: Open_Sans_ExtraBold;
   src: url("../fonts/OpenSans-ExtraBold.ttf");
 }
+@font-face {
+  font-family: Raleway_Light;
+  src: url("../fonts/Raleway-Light.ttf");
+}
