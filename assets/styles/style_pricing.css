@@ -1,10 +1,6 @@
 .pricing {
    background-color: #F5F5F5;
 }
-.pricing_container {
-  max-width: 1170px;
-  margin: auto;
-}
 .pricing_header {
 text-align: center;
 }
@@ -78,8 +74,6 @@ background-color: #FFFFFF;
   background-color: #D98943;
   font-family: Open_Sans_ExtraBold;
 }
-
-/* до сюда все заебись */
 
 @font-face {
   font-family: Raleway_bold;
