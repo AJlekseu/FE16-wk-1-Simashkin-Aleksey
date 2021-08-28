@@ -77,6 +77,7 @@ transform: rotate(45deg);
   margin: auto;
   background: url(../images/city.png);
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
 }
 .axure_container:after {
