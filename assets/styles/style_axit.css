@@ -1,0 +1,133 @@
+  .axit {
+  background-color: #000000;
+}
+  .axit_header {
+  display: flex;
+  }
+  .axit_header p {
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 19px;
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+  }
+  .p_IT {
+    color: #EC7979;
+  }
+  .navigation {
+    margin: auto;
+    margin-right: 0px;
+  }
+  .navigation nav ul li {
+    display: inline;
+    }
+  .navigation nav ul li a {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    font-family: Open_Sans_Semibold;
+    padding: 0px 0px 0px 48px;
+  }
+
+  .axit_container_background {
+    background: url(../images/header_city.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* .axit_container_background:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+  } */
+  .axit_subheader {
+    display: flex;
+    justify-content: space-between;
+  }
+  .axit_subheader_logo {
+    color: #FFFFFF;
+    font-family: Roboto_regular;
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 109px;
+  }
+  .p_IT_axit_subheader {
+    color: #EC7979;
+  }
+  .axit_subheader_info h1 {
+    font-family: Raleway;
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 32px;
+    color: #FFFFFF;
+  }
+  .line_axit {
+    border: 1px solid #FFFFFF;
+    width: 64px;
+    margin-top: 32px;
+  }
+  .axit_subheader_form {
+    margin-top: 110px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    margin: 111px 0px 120px;
+  }
+  .axit_subheader_info_mask {
+    font-family: Raleway_Light;
+    font-size: 16px;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    padding-top: 48px;
+  }
+  .axit_download p {
+    padding-top: 50px;
+    padding-bottom: 112px;
+    padding-left: 25px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: Open_Sans_Semibold;
+  }
+/**********************/
+.axit_subheader_form form input {
+  display: block;
+  outline: none;
+  border: 0;
+  background: none;
+  border-bottom: 1px solid #BDBDBD;
+  width: 252px;
+  padding-top: 16px;
+}
+.axit_subheader_form p {
+  font-family: Open_Sans_bold;
+  font-size: 20px;
+  line-height: 27px;
+  padding-bottom: 44px;
+  margin-left: 59px;
+  padding-top: 14.5px;
+}
+.form_head {
+  color: #EC7979;
+}
+.axit_subheader_form form label {
+color: #BDBDBD;
+font-family: Open_Sans;
+font-size: 14px;
+line-height: 19px;
+padding-top: 19px;
+}
+.form_subhead {
+  padding: 0 59px 0 59px;
+} 
+
+
