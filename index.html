@@ -24,7 +24,7 @@
       <p>AX<span class="p_IT">IT</span></p>
       <div class="navigation">
         <nav>
-          <ul id="nav_list">
+          <ul>
               <li class="Feautures"><a href="#">Feautures</a></li>
               <li class="About"><a href="#">About</a></li>
               <li class="Pricing"><a href="#">Pricing</a></li>
@@ -89,13 +89,15 @@
         </div>
       </div>
         <div class="social_media_icon">
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-google-plus-g"></i></a>
-          <a href="#"><i class="fab fa-pinterest"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-stumbleupon"></i></a>
-          <a href="#"><i class="fas fa-wifi"></i></a>
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-stumbleupon"></i></a></li>
+            <li><a href="#"><i class="fas fa-wifi"></i></a></li>
+        </ul>
         </div>
       </div>
     </div>
@@ -318,17 +320,19 @@
       <div class="contact_us_form">
         <div class="contact_us_name">
           <form action="#" name="contact_us_form_list" method="POST">
+            <div class="contact_list">
             <label for="name">Name</label><br>
             <input type="text" name="name"><br>
             <label for="email">Email</label><br>
             <input type="email" name="email"><br>
             <label for="password">Password</label><br>  
             <input type="password" name="password"> 
+          </div>
+            <div class="contact_us_message">
+              <label for="message">Message</label><br>
+              <textarea name="message" id="#" cols="30" rows="16"></textarea>
+            </div>
           </form>
-        </div>
-        <div class="contact_us_message">
-          <label for="message">Message</label><br>
-          <textarea name="message" id="#" cols="30" rows="10"></textarea>
         </div>
       </div>
       <div class="contact_us_button">
