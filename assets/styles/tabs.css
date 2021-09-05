@@ -1,0 +1,80 @@
+.tabs {
+  display: flex;
+}
+.tab_1 {
+  text-align: center;
+  width: 112px;
+  background-color: #EC7979;
+  border-radius: 4px;
+  margin-top: 125px;
+}
+.tab_1 p {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 45px 35px 45px 35px;
+  font-family: Open_Sans_bold;
+  color: #FFFFFF;
+}
+.tab_2 {
+  text-align: center;
+  width: 112px;
+  background-color: #333333;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.tab_2 p {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 45px 35px 45px 35px;
+  font-family: Open_Sans_bold;
+  color: #FFFFFF;
+}
+.tab_3 {
+  text-align: center;
+  width: 112px;
+  background-color: #333333;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+.tab_3 p {
+  font-size: 15px;
+  line-height: 20px;
+  padding: 45px 35px 45px 35px;
+  font-family: Open_Sans_bold;
+  color: #FFFFFF;
+}
+.tab_text h2{
+  font-family: Open_Sans_bold;
+  font-size: 20px;
+  color: #000000;
+  line-height: 27px;
+  margin-top: 126px;
+  margin-left: 118px;
+  text-transform: uppercase;
+}
+.tab_text p {
+  font-family: Open_Sans;
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 58px;
+  margin-left: 118px;
+  color: #86878B;
+  text-transform: uppercase;
+}
+.tab_button {
+  margin-top: 89px;
+  margin-left: 118px;
+}
+.tab_button a{
+  background-color: #EC7979;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Open_Sans_Semibold;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 11px 27px 11px 25px;
+}
+.tab_img img{
+  margin-top: 100px;
+  margin-left: 50px;
+}

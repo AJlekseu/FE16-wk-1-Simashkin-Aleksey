@@ -30,12 +30,14 @@
   font-size: 42px;
   margin-left: 60px;
   color: #86878B;
-  transition: .5s;
 }
 .social_media_icon ul li {
   list-style-type: none;
   display: inline;
 }
-.social_media_icon ul li a:hover {
+.transform {
+  transition: 0.5s;
+}
+.transform:hover {
   transform: scale(2);
  } 
