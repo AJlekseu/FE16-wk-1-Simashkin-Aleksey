@@ -1,0 +1,33 @@
+.social_media {
+  background-color: #F8EFEF;
+}
+.social_media_section {
+  display: flex;
+  justify-content: space-between;
+}
+.social_logo {
+  align-items: flex-end;
+}
+.social_logo_header {
+  color: #333333;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: Open_Sans_bold;
+  padding: 14px 0 14px 0;
+}
+.social_text {
+  color: #86878B;
+  font-size: 14px;
+  line-height: 19px;
+  font-family: Open_Sans;
+  padding-bottom: 17px;
+  }
+.social_media_icon{
+  display: flex;
+  align-items: center;
+} 
+.social_media_icon a {
+  font-size: 42px;
+  padding-left: 60px;
+  color: #86878B;
+}
