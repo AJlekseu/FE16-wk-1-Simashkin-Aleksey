@@ -16,10 +16,7 @@
   line-height: 19,07px;
   margin: 30px 0 67px 0;
 }
-.contact_us_name form {
-  display: flex;
-  justify-content: space-between;
-}
+
 .contact_us_name form input{
   outline: none;
   border: 0;
@@ -35,6 +32,7 @@
   font-size: 14px;
   line-height: 19px;
   }
+
   .contact_us_message label {
    color: #BDBDBD;
    font-family: Open_Sans;
@@ -46,12 +44,19 @@
     border: 0px;
     border-bottom: 1px solid #BDBDBD;
   }
-  .contact_us_button {
-    text-align: center;
-    margin-top: 68px;
-    margin-bottom: 44px;
+
+  .contact_list_cont {
+    display: flex;
+    justify-content: space-between;
   }
-  .contact_us_button a {
+  .contact_us_but {
+    display: flex;
+    justify-content: center;
+  }
+  .contact_us_button {
+      text-align: center;
+      margin-top: 36px;
+      margin-bottom: 44px;
       background-color: #EC7979;
       font-size: 15px;
       line-height: 20px;
@@ -59,6 +64,7 @@
       text-decoration: none;
       color: #FFFFFF;
       padding: 11px 32px 11px 32px;
+      border: none;
   }
   .footer {
     background-color: #000000;
