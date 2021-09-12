@@ -57,6 +57,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
+    flex-wrap: wrap;
     z-index: 10;
   }
   .axit_subheader_logo {
@@ -130,7 +131,8 @@
   font-size: 20px;
   line-height: 27px;
   padding-bottom: 44px;
-  margin-left: 59px;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 14.5px;
 }
 .form_head {
@@ -146,7 +148,7 @@ line-height: 19px;
   padding: 0 59px 40px 59px;
 } 
 .get_started_button {
-  width: 370px;
+  width: 100%;
   background-color: #EC7979;
   font-family: Open_Sans_Semibold;
   font-size: 15px;
