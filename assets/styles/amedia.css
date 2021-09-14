@@ -6,6 +6,13 @@
   .axit_header {
     margin-left: 10px;
   }
+  .axit_subheader_info {
+    text-align: center;
+  }
+  .line_axit {
+    margin-top: 32px;
+    margin-left: 112px;
+  }
   .axit_subheader_form {
     margin: 0px 0px 120px;
   }
@@ -23,10 +30,14 @@
     justify-content: space-between;
     flex-wrap: wrap;
   }
+  .axit_download {
+    margin-left: 76.5px;
+  }
 
   /*social_media*/
   .social_media_section{
     display: block;
+    text-align: center;
   }
   .social_media_icon ul li a{
     margin-left: 20px;
@@ -41,6 +52,8 @@
   }
   .social_media_icon ul li{
     margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
   }  
   /*tabs*/
   .tabs_list{
@@ -83,6 +96,9 @@
     margin-top: 50px;
     margin-left: 0;
   }
+  .tab_text {
+    text-align: center;
+  }
   .tab_text p
   {
     margin-top: 20px;
@@ -101,6 +117,13 @@
   } 
   .pricing_header h2 {
     padding: 10px 0 25px 0;
+    }
+    /* pricing options */
+    .pricing_subheader {
+      display: block;
+    }
+    .pricing_subheader_block {
+      width: auto;
     }
   /* awesome_subheader */
   .awesome_subheader {
@@ -146,10 +169,17 @@
   }
   /*axit*/
   .axit_subheader_form {
-    margin: 0 0 100px;
+    margin: auto;
   }
   .axit_header {
     margin-left: 10px;
+  }
+  .axit_subheader {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+    z-index: 10;
   }
   .axit_subheader_logo {
     margin-top: 80px;
@@ -165,6 +195,9 @@
   }
 
   /*social_media*/
+  .social_media {
+    text-align: center;
+  }
   .social_media_section{
     display: block;
   }
@@ -173,8 +206,9 @@
     margin-right: 20px;
   }
   .social_media_icon{
-    margin-top: 20px;
+    margin: auto;
     padding-bottom: 20px;
+    justify-content: center;
   }
   .social_media_icon ul li{
     margin-bottom: 20px;
@@ -263,8 +297,11 @@
       width: 310px;
     }
     .footer_icon {
-      margin: auto;
       padding-left: 0px;
+      justify-content: center;
+    }
+    .footer_icon a {
+      padding-left: 10px;
     }
     .footer_text {
       text-align: center;
@@ -292,22 +329,40 @@
   /*social_media*/
   .social_media_section{
     display: block;
+    text-align: center;
   }
   .social_media_icon ul li a{
     margin-left: 20px;
     margin-right: 20px;
   }
   .social_media_icon{
-    margin-top: 20px;
+    margin: auto;
+    padding-bottom: 20px;
+    justify-content: center;
   }
   .social_media_icon ul li{
     margin-bottom: 20px;
   }  
   .footer_icon {
-    padding-left: 0;
-    margin: auto;
+    padding-left: 0px;
+    justify-content: center;
+  }
+  .footer_icon a {
+    padding-left: 10px;
   }
   .footer_text {
     text-align: center;
+  }
+  /* contact us */
+  .contact_us_name form input {
+    width: 400px;
+  }
+  .contact_us_message textarea {
+    width: 400px;
+  }
+  /* pricing options */
+  .pricing_subheader_block {
+    margin-left: 1px;
+    margin-right: 1px;
   }
 }
