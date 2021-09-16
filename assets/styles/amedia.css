@@ -10,11 +10,10 @@
     text-align: center;
   }
   .line_axit {
-    margin-top: 32px;
-    margin-left: 112px;
+    margin: 32px auto 0 auto;
   }
   .axit_subheader_form {
-    margin: 0px 0px 120px;
+    margin: 0px auto 120px auto;
   }
   .axit_subheader_logo {
     margin-top: 80px;
@@ -31,7 +30,7 @@
     flex-wrap: wrap;
   }
   .axit_download {
-    margin-left: 76.5px;
+    width: auto;
   }
 
   /*social_media*/
@@ -112,7 +111,7 @@
     margin-top: 60px;
   }
   .tab_img img{
-    margin-left: -10px;
+    margin-left: 0px;
     margin-top: 40px;
   } 
   .pricing_header h2 {
