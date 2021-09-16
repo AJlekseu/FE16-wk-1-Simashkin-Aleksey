@@ -365,3 +365,12 @@
     margin-right: 1px;
   }
 }
+@media (min-width: 1366px) {
+  .footer_icon {
+    padding-left: 0px;
+    justify-content: center;
+  }
+  .footer_icon a {
+    padding-left: 10px;
+  }
+  }
