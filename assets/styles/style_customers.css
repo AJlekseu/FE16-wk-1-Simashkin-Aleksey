@@ -73,7 +73,7 @@ transform: rotate(45deg);
   text-align: center;
 }
 .axure_container {
-  height: 326px;
+  /* height: 326px; */
   margin: auto;
   background: url(../images/city.png);
   background-repeat: no-repeat;
@@ -119,11 +119,11 @@ margin: auto;
 .download {
   width: 135px;
   height: 42px;
-  border: 1px solid #FFFFFF;
   text-align: center;
   margin: auto;
   position: relative;
   z-index: 10;
+  padding-bottom: 38px;
 }
 .download p {
   padding: 11px 26px 11px 26px;
@@ -132,6 +132,7 @@ margin: auto;
   line-height: 20px;
   position: relative;
   z-index: 10;
+  border: 1px solid #FFFFFF;
 }
 .download a {
   color: #FFFFFF;

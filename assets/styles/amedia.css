@@ -8,6 +8,7 @@
   }
   .axit_subheader_info {
     text-align: center;
+    margin: auto;
   }
   .line_axit {
     margin: 32px auto 0 auto;
@@ -305,6 +306,11 @@
     .footer_text {
       text-align: center;
     }
+      /* pricing options */
+    .pricing_subheader_block {
+      margin-left: 1px;
+      margin-right: 1px;
+  }
 }
 
 @media (min-width: 1024px) and (max-width: 1366px) {
